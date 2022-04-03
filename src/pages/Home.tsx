@@ -45,7 +45,7 @@ export function Home(){
         <div id="page-auth">
             <aside>
                 <img src={illustrationImg} alt="Ilustação simbolizando perguntas e respostas" />
-                <strong>Crie salas de Q&amp;A ao vivo</strong>
+                <strong>Crie salas de Q&amp;A ao vivo!</strong>
                 <p>Tire duvidas da sua audiencia em tempo-real.</p>
             </aside>
             <main>
