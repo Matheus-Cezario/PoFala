@@ -42,6 +42,8 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
 
 Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
 
+O projeto está hospedado no firebase e pode ser acessado por esse **[link](https://letmeask-7c757.web.app/)**
+
 
 
 ## 📝 License
