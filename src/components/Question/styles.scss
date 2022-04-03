@@ -1,5 +1,7 @@
+@import '../../styles/colors';
+
 .question {
-    background: #fefefe;
+    background: $background-light;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
     padding: 24px;
@@ -8,8 +10,21 @@
       margin-top: 8px;
     }
   
+    &.highlighted{
+        background: #f4f8ff;
+        border: 1px solid $base-color;
+        
+        footer .user-info span {
+            color: $text-dark;
+        }
+    }
+
+    &.answered{
+        background: #dbdcdd;
+    }
+
     p {
-      color: #29292e;
+      color: $text-dark;
     }
   
     footer {
@@ -30,11 +45,14 @@
   
         span {
           margin-left: 8px;
-          color: #737380;
+          color: $text-light;
           font-size: 14px;
         }
       }
-  
+      > div {
+          display: flex;
+          gap: 16px;
+      }
       button {
         border: 0;
         background: transparent;
@@ -44,14 +62,14 @@
         &.like-button {
           display: flex;
           align-items: flex-end;
-          color: #737380;
+          color: $text-light;
           gap: 8px;
   
           &.liked {
-            color: #835afd;
+            color: $base-color;
   
             svg path {
-              stroke: #835afd;
+              stroke: $base-color;
             }
           }
         }

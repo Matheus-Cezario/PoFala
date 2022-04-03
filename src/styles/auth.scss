@@ -1,3 +1,5 @@
+@import 'colors';
+
 #page-auth{
     display: flex;
     align-items:stretch;
@@ -5,7 +7,7 @@
     
     aside{
         flex: 7;
-        background: #835afd;
+        background: $base-color;
         color: #fff;
         display: flex;
         flex-direction:column;
@@ -55,7 +57,7 @@
                 border-radius: 8px;
                 padding:0 16px;
                 background: #FFFFFF;
-                border: 1px solid #a8a8b3;
+                border: 1px solid $background-medium;
             }
             button{
                 margin-top: 16px;
@@ -67,7 +69,7 @@
         }
         p {
             font-size:14px;
-            color: #737380;
+            color: $text-light;
             margin-top: 16px;
 
             a{
@@ -100,7 +102,7 @@
     }
     .separator{
         font-size: 14px;
-        color: #a8a8b3;
+        color: $background-medium;
         margin: 32px 0;
         display: flex;
         align-items: center;
@@ -109,7 +111,7 @@
             content: "";
             flex: 1;
             height:1px;
-            background: #a8a8b3;
+            background: $background-medium;
             margin-right: 16px;
         }
 
@@ -117,7 +119,7 @@
             content: "";
             flex: 1;
             height:1px;
-            background: #a8a8b3;
+            background: $background-medium;
             margin-left: 16px;
         }
     }

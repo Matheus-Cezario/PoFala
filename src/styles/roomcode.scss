@@ -1,16 +1,18 @@
+@import 'colors';
+
 .room-code {
     height: 40px;
     border-radius: 8px;
     overflow: hidden;
     
     background: #FFF;
-    border: 1px solid #835afd;
+    border: 1px solid $base-color;
     cursor: pointer;
     
     display: flex;
   
     div {
-        background: #835afd;
+        background: $base-color;
         padding: 0 12px;
         display: flex;
         justify-content: center;

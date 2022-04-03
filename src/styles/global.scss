@@ -1,3 +1,5 @@
+@import 'colors';
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 body {
     background-color:#f8f8f8;
-    color: #29292e;
+    color: $text-dark;
 }
 
 body, input, button, textarea {
