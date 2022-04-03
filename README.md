@@ -22,8 +22,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ https://github.com/Matheus-Cezario/letmeaskNLW.git
-$ cd letmeaskNLW
+$ git clone https://github.com/Matheus-Cezario/PoFala.git
+$ cd Pofala
 ```
 
 Para iniciá-lo, siga os passos abaixo:
