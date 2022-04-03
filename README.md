@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="PoFala" src=".github/logo.svg" width="160px">
+  <img alt="PoFala" src="https://github.com/Matheus-Cezario/letmeaskNLW/blob/main/src/assets/images/logo.svg" width="160px">
 </p>
 
 
 <h1 align="center">
-    ![image](https://user-images.githubusercontent.com/44527383/161451468-ffa467a8-9532-4566-979c-92373401f8ea.png)
+    <img alt="Letmeask" src="https://user-images.githubusercontent.com/44527383/161451468-ffa467a8-9532-4566-979c-92373401f8ea.png">
 </h1>
 
 <br>
